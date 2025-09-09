@@ -181,7 +181,7 @@ namespace pxsim {
 
             this.builtinParts["ledmatrix"] = this.ledMatrixState = new LedMatrixState(runtime);
             // this.builtinVisuals["ledmatrix"] = () => new visuals.LedMatrixView();
-            this.builtinPartVisuals["ledmatrix"] = (xy: visuals.Coord) => visuals.mkLedMatrixSvg(xy);
+            this.builtinPartVisuals["ledmatrix"] = (xy: visuals.Coord) => visuals.mkLedMatrixSvg(xy); 
         }
 
         kill() {
